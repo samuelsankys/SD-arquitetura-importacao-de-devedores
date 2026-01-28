@@ -161,7 +161,7 @@ Logo a ideia principal foi escalar onde precisa e simplificar onde for necessár
 - Estouro de memória: utilização de stream e chunks controlados
 - Tamanho do paralelismo definido para evitar sobrecarga no banco
 
-**Como melhoraria** 
+### Como melhoraria
 
 - Ajustaria o batch size de acordo com o comportamento do banco depois de medir o comportamento real.
 - Retomada automática de processamento em caso a aplicação tenha sido reiniciada a partir do ultimo do checkpoint
