@@ -32,8 +32,8 @@ Adotar uma arquitetura orientada a eventos com processamento distribuído e assi
 
 ---
 
-![image.png](<img width="816" height="777" alt="image" src="https://github.com/user-attachments/assets/1a7d1bd7-9128-41f5-b44b-49a730d27bc0" />
-)
+<img width="816" height="777" alt="image" src="https://github.com/user-attachments/assets/1a7d1bd7-9128-41f5-b44b-49a730d27bc0" />
+
 
 ## Componentes e Responsabilidades
 
@@ -81,8 +81,8 @@ Adotar uma arquitetura simples para processamento sincrono.
 
 ---
 
-![image.png](<img width="498" height="424" alt="image" src="https://github.com/user-attachments/assets/a8b26ab1-ada4-42ac-9cb5-f4feacb8c9b6" />
-)
+<img width="498" height="424" alt="image" src="https://github.com/user-attachments/assets/a8b26ab1-ada4-42ac-9cb5-f4feacb8c9b6" />
+
 
 ## Componentes e Responsabilidades
 
