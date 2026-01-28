@@ -103,7 +103,6 @@ Adotar uma arquitetura simples para processamento sincrono.
 
 ## Decisões Técnicas Detalhadas
 
----
 
 ### Como você pensa?
 
@@ -121,25 +120,25 @@ A partir disso, penso em técnicas e padrões arquiteturais que permitam resolve
 
 **Considerei:**
 
-Volume de dados, principalmente no caso da carga semanal
+- Volume de dados, principalmente no caso da carga semanal
 
-Instabilidade do SFTP, assumindo quedas, timeouts e travamentos como cenário normal
+- Instabilidade do SFTP, assumindo quedas, timeouts e travamentos como cenário normal
 
-Idempotência, para lidar com arquivos duplicados e reprocessamentos
+- Idempotência, para lidar com arquivos duplicados e reprocessamentos
 
-Distribuição de carga, para evitar sobrecarregar banco e infraestrutura
+- Distribuição de carga, para evitar sobrecarregar banco e infraestrutura
 
-Capacidade de retomada, em caso de falhas no meio do processamento
+- Capacidade de retomada, em caso de falhas no meio do processamento
 
 **Descartei:** 
 
-Processar diretamente do SFTP para o banco, devido ao alto acoplamento com um sistema instável e à dificuldade de retomar processamento em caso de falha
+- Processar diretamente do SFTP para o banco, devido ao alto acoplamento com um sistema instável e à dificuldade de retomar processamento em caso de falha
 
-Processamento síncrono para a carga semanal, pois aumentaria muito o risco de não cumprir o SLA
+- Processamento síncrono para a carga semanal, pois aumentaria muito o risco de não cumprir o SLA
 
-Trazer todo o arquivo em memória
+- Trazer todo o arquivo em memória
 
-Usar a mesma arquitetura para os dois fluxos, já que os SLAs, volumes e impactos no negócio são diferentes
+- Usar a mesma arquitetura para os dois fluxos, já que os SLAs, volumes e impactos no negócio são diferentes
 
 ### Por que você escolheu o que escolheu ?
 
