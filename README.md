@@ -101,8 +101,6 @@ Adotar uma arquitetura simples para processamento sincrono.
 | **Deduplicação** | Checksum SHA-256 ou MD5 do arquivo |
 | **State Machine** | Tracking de estado |
 
----
-
 ## Decisões Técnicas Detalhadas
 
 ---
