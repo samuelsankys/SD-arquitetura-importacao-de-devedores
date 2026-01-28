@@ -24,7 +24,9 @@ A empresa recebe dados de clientes (credores) via SFTP em dois fluxos:
 - O cliente já mandou o mesmo arquivo duas vezes por engano. Mais de uma vez.
 - Segunda-feira às 08h, se a base não estiver atualizada, o time de operações não consegue trabalhar.
 
-  ## Decisão
+
+
+# Decisão
 
 ### Caso 1
 
